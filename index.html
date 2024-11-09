@@ -6,8 +6,10 @@
     <title>WDD 131 - Dynamic Web Fundamentals - Michael Nisola</title>
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Michael Nisola, Home Page "/>
     <meta name="author" content="Michael Nisola"/>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
     <!--<script src="scripts/getdates.js" defer></script> -->
 </head>
 
@@ -15,18 +17,56 @@
     <header>
         <h1 contenteditable>Header Content</h1>
         <nav>
+            <ul>
             
-            <li><a href="#" title="Home">Home</a></li>
-            <li><a href="#" title="Current Projects">Projects</a></li>
-            <li><a href="#" title="Our Services">Services</a></li>
-            <li><a href="#" title="Contact Info">Contact Us</a></li>
-            
+                <li><a href="https://www.linkedin.com/in/michael-ray-nisola-05bba0323/" title="LinkedIn">LinkedIn</a></li>
+                <li><a href="https://byui.instructure.com/" title="I-Learn">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/5?lang=eng" title="Scripture">Scripture</a></li>
+                <li><a href="#" title="Final Project">Final Project</a></li>
+            </ul> 
         </nav>
-      </header>
-      <main contenteditable>Main Content</main>
-      <div class="right-sidebar" contenteditable>Aside Content</div>
+    </header>
+      
+    <main>
+        <section class="cardone">
+            <h2> 
+            About Me 
+            </h2>
+            
+            <img class="myphoto" src="image/profile.jpg" alt="Profile Photo" width="150" />
+
+
+            <p>
+                My name is Michael Ray Nisola, but my friends call me mcray. I was born in the Philippines and currently live in Laguna with my family. I work as an Air Conditioning technician at a company. During my free time, I enjoy spending time with my two beautiful boys, playing basketball, and cooking. I’m also passionate about learning more about web development. 
+            </p>
+
+            <h3>
+                Laguna, Phillipines
+            </h3>
+
+            <img class="flag" src="image/Flag-Philippines.webp" alt="Flag" width="300" />
+
+            <p>
+                Laguna is a province in the Calabarzon region of the Philippines, known for its rich history, natural beauty, and hot springs. It’s home to the famous Pagsanjan Falls, Enchanted Kingdom, and historical sites like Rizal's birthplace in Calamba. Laguna also offers a vibrant mix of culture and modern attractions.
+            </p>
+        </section>
+
+        <section class="cardtwo">
+            <h2>
+             Web Dev Resources   
+            </h2>
+
+            <ul>
+                <li><a href="https://www.freecodecamp.org/" title="Freecode">FREE CODE </a></li>
+                <li><a href="https://www.w3schools.com/" title="weschool">W3 SCHOOL </a></li>
+                <li><a href="https://css-tricks.com/" title="cssticks">CSS TRICKS </a></li>
+            </ul>
+
+        </section>
+    </main>
       <footer>
-        <p>©2024 🧑🏾‍🦱 Michael Ray Nisola 🏳️ Laguna,Philippines</p>
+        <p>©️ <span id="currentyear"></span> 🧑🏾‍🦱 Michael Ray Nisola 🏳️ Laguna,Philippines</p>
+        <p id="lastModified"></p>
 
       </footer> 
    
