@@ -1,0 +1,29 @@
+@media screen and (min-width: 900px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+
+    }
+
+    nav a {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+   
+    }
+
+    div {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1.5em));
+      
+        text-align: center;
+    }
+    
