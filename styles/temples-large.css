@@ -1,4 +1,4 @@
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 750px) {
     header {
         display: flex;
         align-items: center;
@@ -9,8 +9,10 @@
         display: flex;
         justify-content: flex-end;
         flex-direction: row;
-
     }
+
+
+
 
     nav a {
         display: block;
@@ -20,6 +22,7 @@
     #menu {
         display: none;
     }
+    
     .move {
         background-color: #6B6D76;
     }
