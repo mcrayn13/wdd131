@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philippines-wdd131</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Michael Ray Nisola, Place Page "/>
+    <meta name="author" content="Michael Ray Nisola">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <script defer src="scripts/place.js" ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Philippines</h1>
+    </header>
+    <main>
+        <div class="ps-relative">
+            <picture>
+                <source media="(min-width:600px )" srcset="images/mayon.jpg">
+                <img src="images/tarsier.webp" height="750" width="500" alt="Philippines">
+            </picture>
+            <div class="card data-card">
+                <div class="card-header"><h2>Data</h2></div>
+                <div class="card-body">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="text-end">Area:</td>
+                                <td>298170 sq km</td>
+                            </tr>
+                            <tr>
+                                <td class="text-end">Population:</td>
+                                <td>117.3 million</td>
+                            </tr>
+                            <tr>
+                                <td class="text-end">Capital:</td>
+                                <td>Manila city</td>
+                            </tr>
+                            <tr>
+                                <td class="text-end">Languages:</td>
+                                <td>Tagalog/Cebuano</td>
+                            </tr>
+                            <tr>
+                                <td class="text-end">Currency:</td>
+                                <td>Philippine peso</td>
+                            </tr>
+                            <tr>
+                                <td class="text-end">Time Zone:</td>
+                                <td>UTC+08:00</td>
+                            </tr>
+                            <tr>
+                                <td class="text-end">Calling Code:</td>
+                                <td>+63</td>
+                            </tr>
+                            <tr>
+                                <td class="text-end">Internet TLD:</td>
+                                <td>.ph</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="card weather-card">
+                <div class="card-header"> 
+                    <h2>Weather</h2>
+                    <img src="images/weather.svg" height="64" width="64" alt="weather">
+                    <span class="weather-icon">
+                    </span>
+                </div>
+                <div class="card-body">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="text-end">Temperature:</td>
+                                <td>25 <sup>o</sup>C</td>
+                            </tr>
+                            <tr>
+                                <td class="text-end">Conditions:</td>
+                                <td>Rain</td>
+                            </tr>
+                            <tr>
+                                <td class="text-end">Wind:</td>
+                                <td>10 km/h</td>
+                            </tr>
+                            <tr>
+                                <td class="text-end">Wind Chill:</td>
+                                <td> "Wind Chill"</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>©️ <span id="currentyear"></span> 🧑🏾‍🦱 Michael Ray Nisola 🏳️ Laguna,Philippines</p>
+        <p id="lastModified"></p>
+
+    </footer> 
+    
+</body>
+</html>
