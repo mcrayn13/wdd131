@@ -46,6 +46,7 @@ footer {
 }
 .card-body {
     justify-items: center;
+    align-content: end;
     margin-bottom: 0.5rem;
     font-size: 1rem;
 }
