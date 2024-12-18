@@ -8,9 +8,10 @@ header {
     text-align: center;
 }
 
-h2 {
+h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 150;
+    font-size: larger;
     text-align: center;
     width: 45%;
     background-color: black;
@@ -45,7 +46,7 @@ input[type="date"],
 textarea,
 input[type="text"] {
     background-color: #f1eeee;
-    border: 1px solid black;
+    
     width: 95%;
     max-width: 500px;
     padding: .75rem;
@@ -83,4 +84,5 @@ footer {
     color: white;
     padding: .5rem;
     margin-top: .5rem;
+    font-size: small;
 }
