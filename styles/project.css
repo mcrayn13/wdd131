@@ -1,0 +1,143 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+#hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+}
+
+/* Featured Content */
+#featured {
+    padding: 2rem 1rem;
+    background: #ecf0f1;
+    text-align: center;
+}
+
+#featured h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#featured article {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    background: #fff;
+}
+
+#featured .btn {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #2c3e50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#featured .btn:hover {
+    background: #34495e;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    #featured article {
+        padding: 0.5rem;
+    }
+}
+#gear-intro {
+    background: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+#gear-intro h1 {
+    font-size: 2.5rem;
+}
+
+/* Gear List Section */
+#gear-list {
+    padding: 2rem 1rem;
+}
+
+#gear-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#gear-list li {
+    background: #fff;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+#gear-list h2 {
+    color: #2c3e50;
+    font-size: 1.5rem;
+}
+
+#gear-list p {
+    margin: 0.5rem 0 0;
+}
